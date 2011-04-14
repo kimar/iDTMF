@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A9D03521357174000A316D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A9D03511357174000A316D1 /* UIKit.framework */; };
+		2A9D03541357174000A316D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A9D03531357174000A316D1 /* Foundation.framework */; };
+		2A9D03561357174000A316D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A9D03551357174000A316D1 /* CoreGraphics.framework */; };
+		2A9D035C1357174000A316D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A9D035A1357174000A316D1 /* InfoPlist.strings */; };
+		2A9D035F1357174000A316D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9D035E1357174000A316D1 /* main.m */; };
+		2A9D03621357174000A316D1 /* iDTMFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9D03611357174000A316D1 /* iDTMFAppDelegate.m */; };
+		2A9D03651357174000A316D1 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A9D03631357174000A316D1 /* MainWindow.xib */; };
+		2A9D03681357174000A316D1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9D03671357174000A316D1 /* FirstViewController.m */; };
+		2A9D036B1357174000A316D1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9D036A1357174000A316D1 /* SecondViewController.m */; };
+		2A9D036E1357174000A316D1 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A9D036C1357174000A316D1 /* FirstView.xib */; };
+		2A9D03711357174000A316D1 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A9D036F1357174000A316D1 /* SecondView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A9D034D1357173F00A316D1 /* iDTMF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDTMF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A9D03511357174000A316D1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2A9D03531357174000A316D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2A9D03551357174000A316D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2A9D03591357174000A316D1 /* iDTMF-Info.plist */ = {isa = PBXFileReference; path = "iDTMF-Info.plist"; sourceTree = "<group>"; };
+		2A9D035B1357174000A316D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2A9D035D1357174000A316D1 /* iDTMF-Prefix.pch */ = {isa = PBXFileReference; path = "iDTMF-Prefix.pch"; sourceTree = "<group>"; };
+		2A9D035E1357174000A316D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A9D03601357174000A316D1 /* iDTMFAppDelegate.h */ = {isa = PBXFileReference; path = iDTMFAppDelegate.h; sourceTree = "<group>"; };
+		2A9D03611357174000A316D1 /* iDTMFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDTMFAppDelegate.m; sourceTree = "<group>"; };
+		2A9D03641357174000A316D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		2A9D03661357174000A316D1 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		2A9D03671357174000A316D1 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		2A9D03691357174000A316D1 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		2A9D036A1357174000A316D1 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		2A9D036D1357174000A316D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		2A9D03701357174000A316D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A9D034A1357173F00A316D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A9D03521357174000A316D1 /* UIKit.framework in Frameworks */,
+				2A9D03541357174000A316D1 /* Foundation.framework in Frameworks */,
+				2A9D03561357174000A316D1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A9D03421357173F00A316D1 = {
+			isa = PBXGroup;
+			children = (
+				2A9D03571357174000A316D1 /* iDTMF */,
+				2A9D03501357174000A316D1 /* Frameworks */,
+				2A9D034E1357173F00A316D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A9D034E1357173F00A316D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A9D034D1357173F00A316D1 /* iDTMF.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A9D03501357174000A316D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A9D03511357174000A316D1 /* UIKit.framework */,
+				2A9D03531357174000A316D1 /* Foundation.framework */,
+				2A9D03551357174000A316D1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A9D03571357174000A316D1 /* iDTMF */ = {
+			isa = PBXGroup;
+			children = (
+				2A9D03601357174000A316D1 /* iDTMFAppDelegate.h */,
+				2A9D03611357174000A316D1 /* iDTMFAppDelegate.m */,
+				2A9D03631357174000A316D1 /* MainWindow.xib */,
+				2A9D03661357174000A316D1 /* FirstViewController.h */,
+				2A9D03671357174000A316D1 /* FirstViewController.m */,
+				2A9D03691357174000A316D1 /* SecondViewController.h */,
+				2A9D036A1357174000A316D1 /* SecondViewController.m */,
+				2A9D036C1357174000A316D1 /* FirstView.xib */,
+				2A9D036F1357174000A316D1 /* SecondView.xib */,
+				2A9D03581357174000A316D1 /* Supporting Files */,
+			);
+			path = iDTMF;
+			sourceTree = "<group>";
+		};
+		2A9D03581357174000A316D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A9D03591357174000A316D1 /* iDTMF-Info.plist */,
+				2A9D035A1357174000A316D1 /* InfoPlist.strings */,
+				2A9D035D1357174000A316D1 /* iDTMF-Prefix.pch */,
+				2A9D035E1357174000A316D1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A9D034C1357173F00A316D1 /* iDTMF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A9D03741357174000A316D1 /* Build configuration list for PBXNativeTarget "iDTMF" */;
+			buildPhases = (
+				2A9D03491357173F00A316D1 /* Sources */,
+				2A9D034A1357173F00A316D1 /* Frameworks */,
+				2A9D034B1357173F00A316D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iDTMF;
+			productName = iDTMF;
+			productReference = 2A9D034D1357173F00A316D1 /* iDTMF.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A9D03441357173F00A316D1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2A9D03471357173F00A316D1 /* Build configuration list for PBXProject "iDTMF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A9D03421357173F00A316D1;
+			productRefGroup = 2A9D034E1357173F00A316D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A9D034C1357173F00A316D1 /* iDTMF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A9D034B1357173F00A316D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A9D035C1357174000A316D1 /* InfoPlist.strings in Resources */,
+				2A9D03651357174000A316D1 /* MainWindow.xib in Resources */,
+				2A9D036E1357174000A316D1 /* FirstView.xib in Resources */,
+				2A9D03711357174000A316D1 /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A9D03491357173F00A316D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A9D035F1357174000A316D1 /* main.m in Sources */,
+				2A9D03621357174000A316D1 /* iDTMFAppDelegate.m in Sources */,
+				2A9D03681357174000A316D1 /* FirstViewController.m in Sources */,
+				2A9D036B1357174000A316D1 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A9D035A1357174000A316D1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A9D035B1357174000A316D1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2A9D03631357174000A316D1 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A9D03641357174000A316D1 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		2A9D036C1357174000A316D1 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A9D036D1357174000A316D1 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		2A9D036F1357174000A316D1 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A9D03701357174000A316D1 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A9D03721357174000A316D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2A9D03731357174000A316D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		2A9D03751357174000A316D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDTMF/iDTMF-Prefix.pch";
+				INFOPLIST_FILE = "iDTMF/iDTMF-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2A9D03761357174000A316D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDTMF/iDTMF-Prefix.pch";
+				INFOPLIST_FILE = "iDTMF/iDTMF-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A9D03471357173F00A316D1 /* Build configuration list for PBXProject "iDTMF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A9D03721357174000A316D1 /* Debug */,
+				2A9D03731357174000A316D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A9D03741357174000A316D1 /* Build configuration list for PBXNativeTarget "iDTMF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A9D03751357174000A316D1 /* Debug */,
+				2A9D03761357174000A316D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A9D03441357173F00A316D1 /* Project object */;
+}
