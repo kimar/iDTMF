@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  InfoViewController.h
 //  iDTMF
 //
 //  Created by Marcus Kida on 14.04.11.
@@ -9,8 +9,11 @@
 #import <UIKit/UIKit.h>
 
 
-@interface FirstViewController : UIViewController {
-
+@interface InfoViewController : UIViewController {
+    
 }
+
+#pragma mark - Button Actions
+- (IBAction)versionInfoClick:(id)sender;
 
 @end
