@@ -57,6 +57,7 @@
 		2AF20A0E1358A433001B1AB6 /* SettingsBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AF20A0D1358A433001B1AB6 /* SettingsBackground.png */; };
 		2AF20A131358A51F001B1AB6 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF20A111358A51F001B1AB6 /* SettingsViewController.m */; };
 		2AF20A141358A51F001B1AB6 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AF20A121358A51F001B1AB6 /* SettingsViewController.xib */; };
+		ED6EA1C61631BA4D0013BE01 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED6EA1C51631BA4D0013BE01 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -120,6 +121,7 @@
 		2AF20A101358A51F001B1AB6 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		2AF20A111358A51F001B1AB6 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		2AF20A121358A51F001B1AB6 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		ED6EA1C51631BA4D0013BE01 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 		2A9D03421357173F00A316D1 = {
 			isa = PBXGroup;
 			children = (
+				ED6EA1C51631BA4D0013BE01 /* Default-568h@2x.png */,
 				2A9D03571357174000A316D1 /* iDTMF */,
 				2A9D03501357174000A316D1 /* Frameworks */,
 				2A9D034E1357173F00A316D1 /* Products */,
@@ -385,6 +388,7 @@
 				2AF20A0E1358A433001B1AB6 /* SettingsBackground.png in Resources */,
 				2AF20A141358A51F001B1AB6 /* SettingsViewController.xib in Resources */,
 				2A5F2EB51358AEA90073573D /* SettingsIcon.png in Resources */,
+				ED6EA1C61631BA4D0013BE01 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +434,11 @@
 		2A5F2EB7135ABCDC0073573D /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv7s,
+					armv7,
+					armv6,
+				);
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Marcus Kida";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -453,7 +461,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iDTMF/iDTMF-Prefix.pch";
 				INFOPLIST_FILE = "iDTMF/iDTMF-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -463,7 +470,12 @@
 		2A9D03721357174000A316D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv7s,
+					armv7,
+					armv6,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer: Marcus Kida (9V2E3Q9G27)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -473,6 +485,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "9EC24386-44C9-449C-9A11-B3800FA27731";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -480,7 +493,12 @@
 		2A9D03731357174000A316D1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv7s,
+					armv7,
+					armv6,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer: Marcus Kida (9V2E3Q9G27)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
@@ -488,6 +506,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "9EC24386-44C9-449C-9A11-B3800FA27731";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -501,7 +520,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iDTMF/iDTMF-Prefix.pch";
 				INFOPLIST_FILE = "iDTMF/iDTMF-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -515,7 +533,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iDTMF/iDTMF-Prefix.pch";
 				INFOPLIST_FILE = "iDTMF/iDTMF-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
