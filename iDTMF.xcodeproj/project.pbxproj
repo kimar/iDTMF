@@ -440,15 +440,15 @@
 					armv6,
 				);
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Marcus Kida";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Marcus Kida";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "D7C773BF-338D-4051-93E5-D311B4CCECE5";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "451CC327-7377-4BAF-A79F-ECAB73AFBA0B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "451CC327-7377-4BAF-A79F-ECAB73AFBA0B";
 				SDKROOT = iphoneos;
 			};
 			name = Distribution;
