@@ -121,7 +121,7 @@
 		2AF20A101358A51F001B1AB6 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		2AF20A111358A51F001B1AB6 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		2AF20A121358A51F001B1AB6 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
-		ED6EA1C51631BA4D0013BE01 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ED6EA1C51631BA4D0013BE01 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +145,6 @@
 		2A9D03421357173F00A316D1 = {
 			isa = PBXGroup;
 			children = (
-				ED6EA1C51631BA4D0013BE01 /* Default-568h@2x.png */,
 				2A9D03571357174000A316D1 /* iDTMF */,
 				2A9D03501357174000A316D1 /* Frameworks */,
 				2A9D034E1357173F00A316D1 /* Products */,
@@ -186,6 +185,7 @@
 				2A9D03631357174000A316D1 /* MainWindow.xib */,
 				2A9D03C413572D8200A316D1 /* Icon@2x.png */,
 				2A9D03C213572D7D00A316D1 /* Icon.png */,
+				ED6EA1C51631BA4D0013BE01 /* Default-568h@2x.png */,
 				2AF209F21357488E001B1AB6 /* Default@2x.png */,
 				2AF209F013574889001B1AB6 /* Default.png */,
 				2A9D03581357174000A316D1 /* Supporting Files */,
