@@ -41,7 +41,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     appDelegate = (iDTMFAppDelegate *)[[UIApplication sharedApplication] delegate];
-    
+    [numbersLabel setFont:[UIFont fontWithName:@"DBLCDTempBlack" size:48.0]];
 }
 
 - (void)viewDidUnload
