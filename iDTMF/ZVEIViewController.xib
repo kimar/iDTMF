@@ -795,11 +795,6 @@
 						<reference key="parent" ref="230938516"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">21</int>
-						<reference key="object" ref="223646266"/>
-						<reference key="parent" ref="230938516"/>
-					</object>
-					<object class="IBObjectRecord">
 						<int key="objectID">37</int>
 						<reference key="object" ref="928686932"/>
 						<reference key="parent" ref="230938516"/>
@@ -812,6 +807,11 @@
 					<object class="IBObjectRecord">
 						<int key="objectID">45</int>
 						<reference key="object" ref="343183081"/>
+						<reference key="parent" ref="230938516"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">21</int>
+						<reference key="object" ref="223646266"/>
 						<reference key="parent" ref="230938516"/>
 					</object>
 				</object>
@@ -991,22 +991,22 @@
 			</object>
 			<object class="NSArray" key="dict.values">
 				<bool key="EncodedWithXMLCoder">YES</bool>
-				<string>{105, 69}</string>
-				<string>{107, 69}</string>
-				<string>{105, 69}</string>
-				<string>{108, 69}</string>
-				<string>{107, 69}</string>
-				<string>{105, 69}</string>
-				<string>{108, 69}</string>
-				<string>{107, 69}</string>
-				<string>{105, 69}</string>
-				<string>{108, 69}</string>
-				<string>{107, 64}</string>
-				<string>{107, 64}</string>
-				<string>{107, 64}</string>
+				<string>{135, 94}</string>
+				<string>{135, 94}</string>
+				<string>{135, 94}</string>
+				<string>{135, 94}</string>
+				<string>{135, 94}</string>
+				<string>{135, 94}</string>
+				<string>{135, 94}</string>
+				<string>{135, 94}</string>
+				<string>{135, 94}</string>
+				<string>{135, 94}</string>
+				<string>{48, 48}</string>
+				<string>{68, 68}</string>
+				<string>{135, 94}</string>
 				<string>{320, 74}</string>
-				<string>{107, 69}</string>
-				<string>{107, 69}</string>
+				<string>{135, 94}</string>
+				<string>{135, 94}</string>
 			</object>
 		</object>
 		<string key="IBCocoaTouchPluginVersion">1926</string>

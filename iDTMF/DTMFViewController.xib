@@ -1190,22 +1190,22 @@
 			</object>
 			<object class="NSArray" key="dict.values">
 				<bool key="EncodedWithXMLCoder">YES</bool>
-				<string>{105, 69}</string>
-				<string>{107, 69}</string>
-				<string>{105, 69}</string>
-				<string>{108, 69}</string>
-				<string>{107, 69}</string>
-				<string>{105, 69}</string>
-				<string>{108, 69}</string>
-				<string>{107, 69}</string>
-				<string>{105, 69}</string>
-				<string>{108, 69}</string>
-				<string>{107, 64}</string>
-				<string>{107, 64}</string>
-				<string>{107, 64}</string>
-				<string>{108, 69}</string>
+				<string>{135, 94}</string>
+				<string>{135, 94}</string>
+				<string>{135, 94}</string>
+				<string>{135, 94}</string>
+				<string>{135, 94}</string>
+				<string>{135, 94}</string>
+				<string>{135, 94}</string>
+				<string>{135, 94}</string>
+				<string>{135, 94}</string>
+				<string>{135, 94}</string>
+				<string>{48, 48}</string>
+				<string>{68, 68}</string>
+				<string>{48, 48}</string>
+				<string>{135, 94}</string>
 				<string>{320, 74}</string>
-				<string>{107, 69}</string>
+				<string>{135, 94}</string>
 			</object>
 		</object>
 		<string key="IBCocoaTouchPluginVersion">1926</string>

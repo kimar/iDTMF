@@ -142,7 +142,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">Copyright (c) 2011 by Marcus Kida</string>
+						<string key="IBUIText">Copyright (c) 2011-2012 by Marcus Kida</string>
 						<reference key="IBUITextColor" ref="807318322"/>
 						<reference key="IBUIHighlightedColor" ref="807318322"/>
 						<int key="IBUIBaselineAdjustment">1</int>
